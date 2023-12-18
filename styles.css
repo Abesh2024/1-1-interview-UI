@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,i {
+    color: #FFF;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: url(https://s3-alpha-sig.figma.com/img/d91f/c5af/9aea97e74eb3be75769a40e86be9e4ea?Expires=1704067200&Signature=bVX-1-BsIlCKqJV1islqo9acdLknZJwsCAwYwHmBesHOT52wABz8YgetVRbR~I~swJPpH6H7LUzeIn2dV60V0XTzzVQEIGhJ01s6jTL28sE7sSHXzLG2I7iw8SklR4lfDrzWRLyM0rjjQSJaevlcOLhvFoliWYfA0kmYX2VuYuLG5TPD9SV5tpfTRHFriHNn-RmpCmXRvIuY6cngEfTvRN3-CvE7B-InrdrYZidX7aFYJQIalmI7xQmhBqcBDouWRn0sZmiKACPd3YlIz2Go1zLy3yLsBubGlnSyBO41lEzx-7gk02Oa1ICBffev6FU4b2gOEus1Krz1nlxN~TnZMw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: fle; */
+    padding-top: 1.2rem;
+    background-color: rgb(37,37,37);
+    align-items: center;
+}
+
+ul 
+{
+    display: flex;
+    gap: 1rem;
+}
+ul li {
+    list-style: none;
+    display: flex;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.color:hover {
+    color: orange;
+}
+
+footer {
+   margin-top: 30%;
+   margin-left: 30%;
+   display: flex;
+   gap: 0.5rem;
+}
+
+.size {
+    height: 1rem;
+    width: 1rem;
+    background-color: #FFF;
+}
+
+.color {
+    background-color: black;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+        50% {
+            transform: rotate(180deg) scale(1.2);
+        }
+    100% {
+        transform: rotate(360deg) scale(1.4);
+    }
+}
+
+#rotate {
+    animation: rotate 1s infinite linear;
+}
+
+
+
